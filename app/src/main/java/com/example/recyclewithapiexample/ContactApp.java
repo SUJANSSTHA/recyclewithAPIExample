@@ -27,7 +27,6 @@ public class ContactApp extends Activity {
 
         ArrayList<Contact> list = new ArrayList<Contact>();//call api with data
         RecyclerView.LayoutManager manager = new LinearLayoutManager(this);
-        myAdapter adapter = new myAdapter(activity this, list);
 
         myRecycleView.setLayoutManager(manager);
         myRecycleView.setAdapter(adapter);
